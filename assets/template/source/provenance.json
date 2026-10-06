@@ -1,0 +1,311 @@
+{
+  "assets": [
+    {
+      "id": "title",
+      "generator": "GPT Image 2",
+      "generation_date": "2026-09-06",
+      "source": "assets/template/source/title.png",
+      "runtime": "assets/template/ui/title.webp",
+      "prompt": "assets/template/source/generation-prompts/title.txt",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "runtime_dimensions": [
+        1280,
+        854
+      ],
+      "processing": "opaque title plate; resize 1280×854",
+      "runtime_sha256": "sha256:d81c7912d0b9eb8294ad1278c2e35251c50f7b7aea904e6b452481bd473eb57b",
+      "prompt_status": "Brand-normalized transcription for Mushies; the generated image is unchanged.",
+      "original_prompt_git_ref": "d106a19f1935808960e2f74af226d9fc73cbc18a:assets/template/source/generation-prompts/title.txt"
+    },
+    {
+      "id": "pause",
+      "generator": "GPT Image 2",
+      "generation_date": "2026-09-06",
+      "source": "assets/template/source/pause.png",
+      "runtime": "assets/template/ui/pause.webp",
+      "prompt": "assets/template/source/generation-prompts/pause.txt",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "runtime_dimensions": [
+        640,
+        640
+      ],
+      "processing": "alpha frame; 640×640 nine-slice",
+      "runtime_sha256": "sha256:ed7d8fa97e97f69d482adc2adb542daa465a1b0d0eb05b7f6a80da8831fd37c4"
+    },
+    {
+      "id": "foreground",
+      "generator": "GPT Image 2",
+      "generation_date": "2026-09-06",
+      "source": "assets/template/source/foreground.png",
+      "runtime": "assets/template/foregrounds/cabinet_trim.webp",
+      "prompt": "assets/template/source/generation-prompts/foreground.txt",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "runtime_dimensions": [
+        336,
+        70
+      ],
+      "processing": "crop (0,705,1536,1024); 336×70; preserved 84 px end caps",
+      "runtime_sha256": "sha256:ccb8ff465ec2f6ce66be8cf928cbe2cf5ebb3231df5a214a61bb0128337cfd33"
+    },
+    {
+      "id": "cursor",
+      "generator": "GPT Image 2",
+      "generation_date": "2026-09-06",
+      "source": "assets/template/source/cursor.png",
+      "runtime": "assets/template/ui/cursor.png",
+      "prompt": "assets/template/source/generation-prompts/cursor.txt",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "runtime_dimensions": [
+        32,
+        32
+      ],
+      "processing": "green-key cleanup, silhouette crop, 32×32; hotspot (6,2)",
+      "runtime_sha256": "sha256:1e1382c32114e3fd5ec1082abaf1ca8d6ea9e0dda2d487b97f015ab8e491940d",
+      "prompt_status": "Brand-normalized transcription for Mushies; the generated image is unchanged.",
+      "original_prompt_git_ref": "d106a19f1935808960e2f74af226d9fc73cbc18a:assets/template/source/generation-prompts/cursor.txt"
+    },
+    {
+      "id": "aim_cursor",
+      "generator": "GPT Image 2",
+      "generation_date": "2026-09-06",
+      "source": "assets/template/source/aim_cursor.png",
+      "runtime": "assets/template/ui/aim_cursor.png",
+      "prompt": "assets/template/source/generation-prompts/aim_cursor.txt",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "runtime_dimensions": [
+        32,
+        32
+      ],
+      "processing": "alpha cleanup, silhouette crop, 32×32; hotspot (16,16)",
+      "runtime_sha256": "sha256:7d8b8141a1b1cb6022d83df436c5257a64c79cd3024b4b5087d8d8f327c8fcfc",
+      "prompt_status": "Brand-normalized transcription for Mushies; the generated image is unchanged.",
+      "original_prompt_git_ref": "d106a19f1935808960e2f74af226d9fc73cbc18a:assets/template/source/generation-prompts/aim_cursor.txt"
+    },
+    {
+      "id": "puff_bomb",
+      "generator": "GPT Image 2",
+      "generation_date": "2026-09-07",
+      "source": "assets/template/source/puff_bomb.png",
+      "runtime": "assets/template/bombs/puff_bomb.webp",
+      "prompt": "assets/template/source/generation-prompts/puff_bomb.txt",
+      "source_dimensions": [
+        1297,
+        1212
+      ],
+      "runtime_dimensions": [
+        433,
+        512
+      ],
+      "processing": "alpha bounding-box crop (165, 3, 1180, 1203) with 12 px padding; 433×512 quality-90 WebP; alpha below 20 removed; 52-point alpha silhouette, 0.97 collider inset",
+      "runtime_sha256": "sha256:e87e0abe3c507d0374600a348eb96672c2bf8c5dd789232b41ec35106fb5a417"
+    },
+    {
+      "id": "chick",
+      "generator": "GPT Image 2 (retained original project art)",
+      "baseline_commit": "29e715d",
+      "baseline_commit_date": "2026-09-04",
+      "source": "assets/template/plushies/source/chick.png",
+      "normalized_source": "assets/template/source/normalized/chick.png",
+      "runtime": "assets/template/plushies/runtime/chick.webp",
+      "runtime_dimensions": [
+        494,
+        512
+      ],
+      "processing": "Original normalized crop and collision outline preserved; color encoded as quality-90 WebP with alpha.",
+      "historical_prompt": "Not present in baseline; not reconstructed or claimed as original."
+    },
+    {
+      "id": "slime",
+      "generator": "GPT Image 2 (retained original project art)",
+      "baseline_commit": "29e715d",
+      "baseline_commit_date": "2026-09-04",
+      "source": "assets/template/plushies/source/slime.png",
+      "normalized_source": "assets/template/source/normalized/slime.png",
+      "runtime": "assets/template/plushies/runtime/slime.webp",
+      "runtime_dimensions": [
+        507,
+        512
+      ],
+      "processing": "Original normalized crop and collision outline preserved; color encoded as quality-90 WebP with alpha.",
+      "historical_prompt": "Not present in baseline; not reconstructed or claimed as original."
+    },
+    {
+      "id": "cat",
+      "generator": "GPT Image 2 (retained original project art)",
+      "baseline_commit": "29e715d",
+      "baseline_commit_date": "2026-09-04",
+      "source": "assets/template/plushies/source/cat.png",
+      "normalized_source": "assets/template/source/normalized/cat.png",
+      "runtime": "assets/template/plushies/runtime/cat.webp",
+      "runtime_dimensions": [
+        512,
+        505
+      ],
+      "processing": "Original normalized crop and collision outline preserved; color encoded as quality-90 WebP with alpha.",
+      "historical_prompt": "Not present in baseline; not reconstructed or claimed as original."
+    },
+    {
+      "id": "bunny",
+      "generator": "GPT Image 2 (retained original project art)",
+      "baseline_commit": "29e715d",
+      "baseline_commit_date": "2026-09-04",
+      "source": "assets/template/plushies/source/bunny.png",
+      "normalized_source": "assets/template/source/normalized/bunny.png",
+      "runtime": "assets/template/plushies/runtime/bunny.webp",
+      "runtime_dimensions": [
+        512,
+        456
+      ],
+      "processing": "Original normalized crop and collision outline preserved; color encoded as quality-90 WebP with alpha.",
+      "historical_prompt": "Not present in baseline; not reconstructed or claimed as original."
+    },
+    {
+      "id": "pup",
+      "generator": "GPT Image 2 (retained original project art)",
+      "baseline_commit": "29e715d",
+      "baseline_commit_date": "2026-09-04",
+      "source": "assets/template/plushies/source/pup.png",
+      "normalized_source": "assets/template/source/normalized/pup.png",
+      "runtime": "assets/template/plushies/runtime/pup.webp",
+      "runtime_dimensions": [
+        512,
+        505
+      ],
+      "processing": "Original normalized crop and collision outline preserved; color encoded as quality-90 WebP with alpha.",
+      "historical_prompt": "Not present in baseline; not reconstructed or claimed as original."
+    },
+    {
+      "id": "octo",
+      "generator": "GPT Image 2 (retained original project art)",
+      "baseline_commit": "29e715d",
+      "baseline_commit_date": "2026-09-04",
+      "source": "assets/template/plushies/source/octo.png",
+      "normalized_source": "assets/template/source/normalized/octo.png",
+      "runtime": "assets/template/plushies/runtime/octo.webp",
+      "runtime_dimensions": [
+        512,
+        464
+      ],
+      "processing": "Original normalized crop and collision outline preserved; color encoded as quality-90 WebP with alpha.",
+      "historical_prompt": "Not present in baseline; not reconstructed or claimed as original."
+    },
+    {
+      "id": "star",
+      "generator": "GPT Image 2 (retained original project art)",
+      "baseline_commit": "29e715d",
+      "baseline_commit_date": "2026-09-04",
+      "source": "assets/template/plushies/source/star.png",
+      "normalized_source": "assets/template/source/normalized/star.png",
+      "runtime": "assets/template/plushies/runtime/star.webp",
+      "runtime_dimensions": [
+        512,
+        487
+      ],
+      "processing": "Original normalized crop and collision outline preserved; color encoded as quality-90 WebP with alpha.",
+      "historical_prompt": "Not present in baseline; not reconstructed or claimed as original."
+    },
+    {
+      "id": "sheep",
+      "generator": "GPT Image 2 (retained original project art)",
+      "baseline_commit": "29e715d",
+      "baseline_commit_date": "2026-09-04",
+      "source": "assets/template/plushies/source/sheep.png",
+      "normalized_source": "assets/template/source/normalized/sheep.png",
+      "runtime": "assets/template/plushies/runtime/sheep.webp",
+      "runtime_dimensions": [
+        486,
+        512
+      ],
+      "processing": "Original normalized crop and collision outline preserved; color encoded as quality-90 WebP with alpha.",
+      "historical_prompt": "Not present in baseline; not reconstructed or claimed as original."
+    },
+    {
+      "id": "axolotl",
+      "generator": "GPT Image 2 (retained original project art)",
+      "baseline_commit": "29e715d",
+      "baseline_commit_date": "2026-09-04",
+      "source": "assets/template/plushies/source/axolotl.png",
+      "normalized_source": "assets/template/source/normalized/axolotl.png",
+      "runtime": "assets/template/plushies/runtime/axolotl.webp",
+      "runtime_dimensions": [
+        512,
+        479
+      ],
+      "processing": "Original normalized crop and collision outline preserved; color encoded as quality-90 WebP with alpha.",
+      "historical_prompt": "Not present in baseline; not reconstructed or claimed as original."
+    },
+    {
+      "id": "moth",
+      "generator": "GPT Image 2 (retained original project art)",
+      "baseline_commit": "29e715d",
+      "baseline_commit_date": "2026-09-04",
+      "source": "assets/template/plushies/source/moth.png",
+      "normalized_source": "assets/template/source/normalized/moth.png",
+      "runtime": "assets/template/plushies/runtime/moth.webp",
+      "runtime_dimensions": [
+        512,
+        362
+      ],
+      "processing": "Original normalized crop and collision outline preserved; color encoded as quality-90 WebP with alpha.",
+      "historical_prompt": "Not present in baseline; not reconstructed or claimed as original."
+    },
+    {
+      "id": "dragon",
+      "generator": "GPT Image 2 (retained original project art)",
+      "baseline_commit": "29e715d",
+      "baseline_commit_date": "2026-09-04",
+      "source": "assets/template/plushies/source/dragon.png",
+      "normalized_source": "assets/template/source/normalized/dragon.png",
+      "runtime": "assets/template/plushies/runtime/dragon.webp",
+      "runtime_dimensions": [
+        512,
+        470
+      ],
+      "processing": "Original normalized crop and collision outline preserved; color encoded as quality-90 WebP with alpha.",
+      "historical_prompt": "Not present in baseline; not reconstructed or claimed as original."
+    },
+    {
+      "id": "arcade",
+      "generator": "GPT Image 2 (retained original project art)",
+      "source": "assets/template/source/arcade.png",
+      "runtime": "assets/template/plushies/background/arcade.webp",
+      "processing": "Resize opaque original to 1280×800 and quality-86 WebP."
+    },
+    {
+      "id": "boot",
+      "generator": "Derived from retained GPT Image 2 chick",
+      "source": "assets/template/source/normalized/chick.png",
+      "runtime": "assets/template/ui/boot.png",
+      "processing": "186×192 alpha-preserving PNG required by Godot splash loader."
+    },
+    {
+      "id": "app-icon-192",
+      "generator": "Derived from retained GPT Image 2 chick",
+      "source": "assets/template/source/normalized/chick.png",
+      "runtime": "assets/template/ui/app-icon-192.png",
+      "processing": "Fit chick within 82% of a 192×192 cream RGB canvas; PNG for mobile web manifest."
+    },
+    {
+      "id": "app-icon-512",
+      "generator": "Derived from retained GPT Image 2 chick",
+      "source": "assets/template/source/normalized/chick.png",
+      "runtime": "assets/template/ui/app-icon-512.png",
+      "processing": "Fit chick within 82% of a 512×512 cream RGB canvas; PNG for mobile web manifest."
+    }
+  ]
+}

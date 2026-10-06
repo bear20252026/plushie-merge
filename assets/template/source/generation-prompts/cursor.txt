@@ -1,0 +1,3 @@
+Brand-normalized transcription for Mushies. The image was generated with the original prompt preserved at Git ref d106a19f1935808960e2f74af226d9fc73cbc18a:assets/template/source/generation-prompts/cursor.txt.
+
+Use GPT Image 2. A single large isolated game mouse cursor icon, pointing toward upper left, tip at x roughly 280 y roughly 220, centered on a solid flat neon green #00ff00 background for clean cutout. Cozy Mushies art: ivory satin arrow with a thick dark plum embroidered outline and a tiny rose-pink fabric knot on the handle. Strong simple crisp readable silhouette, no fine loose fibers, no drop shadow, no glow. 1024 square. Leave generous green padding around all edges. No text, letters or watermark. One icon only.
