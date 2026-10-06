@@ -1,0 +1,36 @@
+# Godot generated data
+.godot/
+.import/
+export.cfg
+export_credentials.cfg
+
+# Build outputs
+build/*
+!build/.gdignore
+dist/
+
+# Python tooling
+.venv/
+__pycache__/
+*.pyc
+
+# Web export staging (the shipped web shell lives in ui/web)
+web/*
+!web/.gdignore
+
+# Editor / OS noise
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and local databases
+*.log
+*.sqlite
+*.sqlite3
+
+# Local tool scratch space
+.manus-game-tools/
+.manus-logs/
